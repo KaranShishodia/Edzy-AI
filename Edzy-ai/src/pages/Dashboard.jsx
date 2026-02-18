@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 import StatCard from "../components/StatCard";
 import { fetchCourses } from "../services/api";
+import LearningChart from "../components/LearningChart";
+import { progressData } from "../data/mockData";
 
 export default function Dashboard() {
   const [courses, setCourses] = useState([]);
+
+  <LearningChart data={progressData} />;
 
   useEffect(() => {
     fetchCourses().then(setCourses);
