@@ -55,7 +55,13 @@ Props driven UI reuse
 State and event handling
 Async data fetching patterns
 Visualization integration
-
 Responsive layout practices
-
 Git based incremental development
+
+How to Run : 
+
+Install router:
+npm install react-router-dom
+
+npm install
+npm run dev
