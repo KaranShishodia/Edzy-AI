@@ -60,5 +60,8 @@ Git based incremental development
 
 How to Run : 
 
+Install router:
+npm install react-router-dom
+
 npm install
 npm run dev
